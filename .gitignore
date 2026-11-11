@@ -1,0 +1,33 @@
+# Build output
+/build/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+
+# Local accounting data, SQL snapshots, and exports
+/data/
+/exports/
+
+# Test artifacts and Python caches
+/tests/.tmp/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Local environment settings
+.env
+.env.*
+!.env.example
+
+# Editor and operating system artifacts
+.vs/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini

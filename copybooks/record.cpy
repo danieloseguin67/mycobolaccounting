@@ -1,0 +1,32 @@
+      *> Schema 1. Fixed decimal display fields keep the file inspectable.
+       05 r-key.
+          10 r-kind                 pic xx.
+          10 r-id                   pic 9(8).
+       05 r-state                   pic x.
+       05 r-date                    pic 9(8).
+       05 r-client                  pic 9(8).
+       05 r-project                 pic 9(8).
+       05 r-staff                   pic 9(8).
+       05 r-name                    pic x(80).
+       05 r-text                    pic x(80).
+       05 r-extra                   pic x(80).
+       05 r-class                   pic x.
+       05 r-subtotal                pic s9(10)v99.
+       05 r-tax                     pic s9(10)v99.
+       05 r-total                   pic s9(10)v99.
+       05 r-rate                    pic 9(3)v99.
+       05 r-count                   pic 99.
+       05 r-lines occurs 31.
+          10 r-account              pic 9(4).
+          10 r-description          pic x(80).
+          10 r-quantity             pic 9(5)v99.
+          10 r-price                pic 9(8)v99.
+          10 r-debit                pic 9(10)v99.
+          10 r-credit               pic 9(10)v99.
+          10 r-day                  pic 9(8).
+          10 r-start-am             pic 9(4).
+          10 r-end-am               pic 9(4).
+          10 r-start-pm             pic 9(4).
+          10 r-end-pm               pic 9(4).
+          10 r-start-ot             pic 9(4).
+          10 r-end-ot               pic 9(4).
